@@ -1,24 +1,19 @@
-body { 
-    padding: 0px;
+body { padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     width: 375px;
-    height: 590px
-}
+    height: 590px }
  
-header {
-background-color:#3C3A39;
+header { background-color:#3C3A39;
 color: white;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 padding-left: 36px;
 padding-right: 36px;
-align-items: center;
-}
+align-items: center; }
 
-.intro {
-    background-color: #1C1A19;
+.intro { background-color: #1C1A19;
     color: white;
     display: flex;
     flex-direction: column;
@@ -27,13 +22,9 @@ align-items: center;
     font-size: 24px;
     background-image: url(img/Group.png);
     background-repeat: no-repeat;
-    background-position: 100% 100%;
-}
+    background-position: 100% 100%; }
 
-
-
-h1 {
-    color: #FF6B00;
+h1 { color: #FF6B00;
     margin-bottom: 12px;
     font-family: Crete Round;
     font-size: 56px;
@@ -41,23 +32,18 @@ h1 {
     font-weight: 400;
     line-height: 64px;
     letter-spacing: 0.3700000047683716px;
-    text-align: left;
+    text-align: left; }
 
-}
+h2 { font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 12px; }
 
-h2 {
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: center;
-margin-bottom: 12px;
-}
-
-h3 {
-    margin: 0px;
+h3 { margin: 0px;
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
@@ -65,25 +51,17 @@ h3 {
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
-    margin-bottom: 12px;
-}
-p {
-    font-family: Poppins;
+    margin-bottom: 12px; }
+
+p { font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: left; }
 
-}
+.social-media { display: flex;
+    list-style: none; }
 
-.social-media {
-    display: flex;
-    list-style: none;    
-}
-
-.icons {
-    padding-right: 20px;
-    
-}
+.icons { padding-right: 20px; }
