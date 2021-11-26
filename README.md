@@ -7,6 +7,13 @@ This is portfolio website that showcases projects I have worked on and more abou
 - Html
 - Css
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+- Clone repository
+
+
 
 ## Author 
 - GitHub: [@olawalecoder](https://github.com/olawalecoder)
