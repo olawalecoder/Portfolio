@@ -1,7 +1,7 @@
 # Portfolio
 This is portfolio website that showcases projects I have worked on and more about me as a person. Enjoy!
 
-![screenshot](./img_screenshot.png)
+![screenshot](/img_screenshot.png)
 
 ## Built With 
 - Html
