@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color:#3c3a39;
+  background-color: #3c3a39;
   color: #fff;
   display: flex;
   flex-direction: row;
@@ -23,7 +23,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 120px 24px;  
+  padding: 120px 24px;
   font-size: 24px;
   background-image: url(img/Group.png);
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@ h2 {
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   margin-bottom: 12px;
 }
@@ -60,7 +60,7 @@ h3 {
   font-style: normal;
   font-weight: 700;
   line-height: 32px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   margin-bottom: 12px;
 }
