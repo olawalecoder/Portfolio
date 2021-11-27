@@ -108,11 +108,13 @@ a {
   align-items: center;
 }
 
-.works-title {
+.works h2 {
   margin-top: 120px;
   width: 327px;
   height: 83px;
   font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 40px;
   line-height: 52px;
   text-align: left;
@@ -130,9 +132,11 @@ a {
   height: 237px;
 }
 
-.project-title1 {
+.proj1 h3 {
   font-family: Crete Round, sans-serif;
   font-size: 32px;
+  font-style: normal;
+  font-weight: normal;
   line-height: 44px;
   text-align: left;
   color: #091e42;
@@ -199,9 +203,11 @@ a {
   background-size: cover;
 }
 
-.project-title2 {
+.proj2 h3 {
   font-family: Crete Round, sans-serif;
   font-size: 32px;
+  font-style: normal;
+  font-weight: normal;
   line-height: 44px;
   text-align: left;
   color: #fff;
@@ -256,18 +262,20 @@ a {
 
 .about {
   background: #1c1a19;
+  color: #fff;
   width: 375px;
   height: 1901px;
-  margin-top: 10px;
+  margin: 0 auto;
+  overflow-x: hidden;
   background-image: url(img/bg2.png);
   background-repeat: no-repeat;
   background-position: 100% 19%;
 }
 
 .intro2 {
-  display: grid;
-  grid-template-rows: 1fr;
-  margin: 120px 0 209px 24px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 209px 24px;
 }
 
 .about h1 {
@@ -292,57 +300,57 @@ a {
   margin: 0 24px 135px;
 }
 
-.experience-summary {
+.about ul { padding: 0; }
+
+.main-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 0;
-  margin-top: 0;
   margin-bottom: 44px;
-  color: #fff;
 }
 
-.experience-summary ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.main-list .language {
+.sub-items {
   list-style: none;
-  list-style-type: square;
-  list-style-image: url(img/rect1.png);
-  font-family: InaiMathi, sans-serif;
-  font-size: 32px;
-  line-height: 44px;
-  margin-bottom: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.main-list .frameworks {
-  list-style: none;
-  list-style-type: square;
-  list-style-image: url(img/rect2.png);
-  font-family: InaiMathi, sans-serif;
-  font-size: 32px;
-  line-height: 44px;
-  margin-bottom: 44px;
-}
-
-.main-list .skills {
-  list-style: none;
-  list-style-type: square;
-  list-style-image: url(img/circle1.png);
-  font-family: InaiMathi, sans-serif;
-  font-size: 32px;
-  line-height: 44px;
-  margin-bottom: 44px;
-}
-
-.sub-language li {
+.sub-items li {
   font-family: Inter, sans-serif;
   font-size: 22px;
   line-height: 43px;
   margin-top: 20px;
   list-style: none;
+}
+
+.main-list .language {
+  list-style-image: url(img/rect1.png);
+  font-family: InaiMathi, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0 12px 44px;
+}
+
+.main-list .frameworks {
+  list-style-image: url(img/rect2.png);
+  font-family: InaiMathi, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0 12px 44px;
+}
+
+.main-list .skills {
+  list-style-image: url(img/circle1.png);
+  font-family: InaiMathi, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0 12px 44px;
 }
