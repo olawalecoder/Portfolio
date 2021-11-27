@@ -100,10 +100,9 @@ a {
 }
 
 .works {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  padding: 0 24px;
+  display: grid;
+  grid-template-columns: none;
+  grid-gap: 24px;
   margin: 0 24px;
   align-items: center;
 }
@@ -157,15 +156,16 @@ a {
 }
 
 .tools {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
   width: 297px;
   height: 40px;
+  padding: 0;
   margin: 12px 0;
 }
 
-.tools div {
+.tools li {
   border: 1px solid #8993a4;
   padding: 10px 12px;
   font-family: Inter, sans-serif;
@@ -173,6 +173,8 @@ a {
   line-height: 20px;
   text-align: center;
   color: #091e42;
+  text-decoration: none;
+  list-style: none;
 }
 
 .Proj-button {
@@ -195,7 +197,8 @@ a {
 }
 
 .proj2 {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   width: 327px;
   height: 386px;
   margin: 0 0 24px;
@@ -228,15 +231,16 @@ a {
 }
 
 .tools2 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
   width: 236px;
   height: 40px;
+  padding: 0;
   margin: 0 75px 22px 16px;
 }
 
-.tools2 div {
+.tools2 li {
   background: rgba(255, 255, 255, 0.24);
   padding: 10px 12px;
   font-family: Inter, sans-serif;
@@ -244,6 +248,9 @@ a {
   line-height: 20px;
   text-align: center;
   color: #fff;
+  text-decoration: none;
+  list-style: none;
+  
 }
 
 .Proj-button2 {
@@ -265,7 +272,7 @@ a {
   color: #fff;
   width: 375px;
   height: 1901px;
-  margin: 0 auto;
+  margin: 120px auto;
   overflow-x: hidden;
   background-image: url(img/bg2.png);
   background-repeat: no-repeat;
