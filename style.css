@@ -195,8 +195,7 @@ a {
   width: 327px;
   height: 386px;
   margin: 0 0 24px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%,
-  rgba(38, 38, 38, 0.4) 61.94%),url(img/holder-2.png);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.4) 61.94%),url(img/holder-2.png);
   background-size: cover;
 }
 
@@ -228,7 +227,7 @@ a {
   column-gap: 12px;
   width: 236px;
   height: 40px;
-  margin: 0px 75px 22px 16px;
+  margin: 0 75px 22px 16px;
 }
 
 .tools2 div {
@@ -255,7 +254,6 @@ a {
   text-align: center;
 }
 
-
 .about {
   background: #1c1a19;
   width: 375px;
@@ -268,8 +266,8 @@ a {
 
 .intro2 {
   display: grid;
-  grid-template-rows: 1fr; 
-  margin: 120px 0px 209px 24px;
+  grid-template-rows: 1fr;
+  margin: 120px 0 209px 24px;
 }
 
 .about h1 {
@@ -319,7 +317,6 @@ a {
   font-size: 32px;
   line-height: 44px;
   margin-bottom: 44px;
-
 }
 
 .main-list .frameworks {
