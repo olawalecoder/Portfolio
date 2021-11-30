@@ -191,6 +191,7 @@ a {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
+  cursor: pointer;
 }
 
 .project-template {
@@ -266,6 +267,7 @@ a {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
+  cursor: pointer;
 }
 
 .about {
@@ -442,7 +444,7 @@ input:focus,
 textarea:focus { outline: none; }
 
 .form-button {
-  width: 131px;
+  width: 135px;
   height: 48px;
   padding: 12px;
   font-family: Inter, sans-serif;
@@ -455,4 +457,11 @@ textarea:focus { outline: none; }
   background: #ff6b00;
   color: #fff;
   border: 0;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #fff;
+  color: #ff6b00;
+  border: solid #ff6b00 1px;
 }
