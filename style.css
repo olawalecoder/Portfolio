@@ -156,11 +156,10 @@ a {
 }
 
 .tools {
-  /* display: flex; */
-  float: left;
-  /* flex-direction: row; */
-  /* gap: 12px; */
-  /* width: 297px; */
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  width: 297px;
   width: 397px;
   height: 40px;
   padding: 0;
@@ -168,7 +167,6 @@ a {
 }
 
 .tools li {
-  float: left;
   border: 1px solid #8993a4;
   padding: 10px 12px;
   margin-right: 10px;
@@ -399,18 +397,18 @@ a {
   line-height: 24px;
   font-style: normal;
   font-size: 15px;
-  font-family:inter, sans-serif;
+  font-family: Inter, sans-serif;
   color: #979493;
 }
 
 .mail {
   height: 48px;
-  width: 327px ;
+  width: 327px;
   line-height: 24px;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px ;
-  font-family:inter, sans-serif;
+  font-size: 15px;
+  font-family: Inter, sans-serif;
   color: #979493;
 }
 
@@ -440,9 +438,7 @@ textarea {
   padding: 12px;
 }
 
-input:focus, textarea:focus {
-  outline: none;
-}
+input:focus, textarea:focus { outline: none; }
 
 .form-button {
   width: 131px;
@@ -457,5 +453,5 @@ input:focus, textarea:focus {
   text-align: center;
   background: #ff6b00;
   color: #fff;
-  border: 0px;
+  border: 0;
 }
