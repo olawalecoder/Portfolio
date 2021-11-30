@@ -156,18 +156,22 @@ a {
 }
 
 .tools {
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  width: 297px;
+  /* display: flex; */
+  float: left;
+  /* flex-direction: row; */
+  /* gap: 12px; */
+  /* width: 297px; */
+  width: 397px;
   height: 40px;
   padding: 0;
   margin: 12px 0;
 }
 
 .tools li {
+  float: left;
   border: 1px solid #8993a4;
   padding: 10px 12px;
+  margin-right: 10px;
   font-family: Inter, sans-serif;
   font-size: 15px;
   line-height: 20px;
