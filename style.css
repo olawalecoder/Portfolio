@@ -364,3 +364,66 @@ a {
   line-height: 44px;
   margin: 0 12px 44px;
 }
+
+.form {
+  width: 375px;
+  height: 845px;
+  background-color: #fff;
+  margin: 120px 24px 124px 24px;
+}
+
+.form p {
+  width: 327px;
+  font-size: 32px;
+  font-family: inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+
+}.contact-form ul {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-form {
+  width: 327px;
+}
+.name {
+  height: 48px;
+  width: 327px ;
+  line-height: 24px;
+  font-style: normal;
+  font-size: 15px ;
+  font-family:inter, sans-serif ;
+}
+
+.mail {
+  height: 48px;
+  width: 327px ;
+  line-height: 24px;
+  font-style: normal;
+  font-size: 15px ;
+  font-family:inter, sans-serif ;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  color: #dbd8d7;
+
+}
+
+textarea {
+  border-style: none;
+  background-color: #fbfaf7;
+  margin: 24px 0 24px 0;
+  padding: 12px;
+}
