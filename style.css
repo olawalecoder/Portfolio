@@ -438,7 +438,8 @@ textarea {
   padding: 12px;
 }
 
-input:focus, textarea:focus { outline: none; }
+input:focus,
+textarea:focus { outline: none; }
 
 .form-button {
   width: 131px;
