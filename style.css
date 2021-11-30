@@ -160,6 +160,7 @@ a {
   flex-direction: row;
   gap: 12px;
   width: 297px;
+  width: 397px;
   height: 40px;
   padding: 0;
   margin: 12px 0;
@@ -168,6 +169,7 @@ a {
 .tools li {
   border: 1px solid #8993a4;
   padding: 10px 12px;
+  margin-right: 10px;
   font-family: Inter, sans-serif;
   font-size: 15px;
   line-height: 20px;
@@ -189,6 +191,7 @@ a {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
+  cursor: pointer;
 }
 
 .project-template {
@@ -264,6 +267,7 @@ a {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
+  cursor: pointer;
 }
 
 .about {
@@ -359,4 +363,105 @@ a {
   font-size: 32px;
   line-height: 44px;
   margin: 0 12px 44px;
+}
+
+.form {
+  width: 375px;
+  height: 845px;
+  background-color: #fff;
+  margin: 120px 24px 124px 24px;
+}
+
+.form p {
+  width: 327px;
+  font-size: 32px;
+  font-family: inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.contact-form ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 327px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.name {
+  height: 48px;
+  width: 327px;
+  line-height: 24px;
+  font-style: normal;
+  font-size: 15px;
+  font-family: Inter, sans-serif;
+  color: #979493;
+}
+
+.mail {
+  height: 48px;
+  width: 327px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: Inter, sans-serif;
+  color: #979493;
+}
+
+.msg {
+  width: 303px;
+  height: 90px;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-color: #dbd8d7;
+}
+
+textarea {
+  border-style: none;
+  background-color: #fbfaf7;
+  margin: 24px 0 24px 0;
+  padding: 12px;
+}
+
+input:focus,
+textarea:focus { outline: none; }
+
+.form-button {
+  width: 135px;
+  height: 48px;
+  padding: 12px;
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  background: #ff6b00;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #fff;
+  color: #ff6b00;
+  border: solid #ff6b00 1px;
 }
