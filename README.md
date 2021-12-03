@@ -24,6 +24,12 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@Anny85-code](https://github.com/Anny85-code)
 - Twitter: [@Annyudo8](https://twitter.com/Annyudo8)
 
+## Author 3
+- GitHub: [@clintonjosephs](https://github.com/clintonjosephs)
+- Twitter: [@clintonmbonu_](https://twitter.com/clintonmbonu_)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/clinton-mbonu)
+
+
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
