@@ -8,7 +8,7 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 6968px;  
+  height: 6968px;
 }
   
 header {
@@ -21,7 +21,7 @@ header {
   align-items: center;
   width: 100%;
 }
-  
+
 .intro {
   background-color: #1c1a19;
   color: #fff;
@@ -35,7 +35,7 @@ header {
   background-position: 100% 100%;
   width: 100%;
 }
-  
+
 h1 {
   color: #ff6b00;
   margin-bottom: 12px;
@@ -48,7 +48,7 @@ h1 {
   text-align: left;
   width: 100%;
 }
-  
+
 .logo {
   font-family: Roboto, sans-serif;
   font-size: 18px;
@@ -60,10 +60,8 @@ h1 {
   margin-bottom: 12px;
 }
 
-.menu {
-  display: none;
-}
-  
+.menu { display: none; }
+
 h3 {
   margin: 0;
   font-family: Roboto, sans-serif;
@@ -76,7 +74,7 @@ h3 {
   margin-bottom: 12px;
   width: 100%;
 }
-  
+
 p {
   font-family: Poppins, sans-serif;
   font-size: 16px;
@@ -87,19 +85,19 @@ p {
   text-align: left;
   width: 100%;
 }
-  
+
 .social-media {
   display: flex;
   list-style: none;
 }
-  
+
 .icons { padding-right: 20px; }
-  
+
 a {
   text-decoration: none;
   color: white;
 }
-  
+
 .button {
   background-color: #3c3a39;
   border: none;
@@ -109,7 +107,7 @@ a {
   font-size: 16px;
   cursor: pointer;
 }
-  
+
 .works {
   display: grid;
   grid-template-rows: auto;
@@ -119,7 +117,7 @@ a {
   width: 100%;
   background-color: #fff;
 }
-  
+ 
 .works h2 {
   margin-top: 120px;
   width: 327px;
@@ -131,19 +129,19 @@ a {
   line-height: 52px;
   text-align: left;
 }
-  
+
 .hline {
   width: 100%;
   margin-bottom: 80px;
   height: 1px;
   background: #212121;
 }
-  
+
 .first-proj-picture {
   width: 327px;
   height: 237px;
 }
-  
+
 .proj1 {
   width: 327px;
 }
@@ -164,7 +162,7 @@ a {
   margin-inline-start: 0;
   margin-inline-end: 0;
 }
-  
+
 .proj1 p {
   font-family: Inter, sans-serif;
   font-size: 16px;
@@ -175,7 +173,7 @@ a {
   height: 147px;
   margin: 12px 0 0;
 }
-  
+
 .tools {
   display: flex;
   flex-direction: row;
@@ -185,7 +183,7 @@ a {
   padding: 0;
   margin: 12px 0;
 }
-  
+
 .tools li {
   border: 1px solid #8993a4;
   padding: 10px 12px;
@@ -198,7 +196,7 @@ a {
   text-decoration: none;
   list-style: none;
 }
-  
+
 .Proj-button {
   background: #ff6b00;
   border: 0;
@@ -213,13 +211,13 @@ a {
   text-align: center;
   cursor: pointer;
 }
-  
+
 .project-template {
   display: grid;
   grid-template-rows: repeat(6, auto);
   width: 327px;
 }
-  
+
 .proj2 {
   display: flex;
   flex-direction: column;
@@ -229,7 +227,7 @@ a {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.4) 61.94%), url(/img/holder-2.png);
   background-size: cover;
 }
-  
+
 .proj2 h3 {
   font-family: Crete Round, sans-serif;
   font-size: 32px;
@@ -242,7 +240,7 @@ a {
   height: 81px;
   margin: 84px 16px 12px 16px;
 }
-  
+
 .proj2 p {
   font-family: Inter, sans-serif;
   font-size: 16px;
@@ -253,7 +251,7 @@ a {
   height: 87px;
   margin: 0 16px 12px;
 }
-  
+
 .tools2 {
   display: flex;
   flex-direction: row;
@@ -263,7 +261,7 @@ a {
   padding: 0;
   margin: 0 75px 22px 16px;
 }
-  
+
 .tools2 li {
   background: rgba(255, 255, 255, 0.24);
   padding: 10px 12px;
@@ -275,7 +273,7 @@ a {
   text-decoration: none;
   list-style: none;
 }
-  
+
 .Proj-button2 {
   background: #ff6b00;
   border: 0;
@@ -290,33 +288,32 @@ a {
   text-align: center;
   cursor: pointer;
 }
-  
+
 .about {
   background: #1c1a19;
   color: #fff;
   width: 100%;
   height: 1901px;
   margin: 120px 0 0 0;
-  padding: 120px 0px;
-  overflow-x: hidden;
+  padding: 120px 0;
   background-image: url(/img/bg2.png);
   background-repeat: no-repeat;
   background-position: 100% 19%;
 }
-  
+ 
 .intro2 {
   display: flex;
   flex-direction: column;
   margin: 10px 0 209px 24px;
 }
-  
+ 
 .about h1 {
   font-size: 72px;
   line-height: 88px;
   width: 100%;
   height: 100%;
 }
-  
+
 .about p {
   width: 100%;
   height: 100%;
@@ -324,20 +321,20 @@ a {
   margin-bottom: 12px;
   padding-right: 12px;
 }
-  
+
 .about button {
   width: 161px;
 }
-  
+
 .about .hline {
   background: rgb(243, 243, 243);
   margin: 0 0 135px;
   padding: 0 24px;
   width: 100%;
 }
-  
+
 .about ul { padding: 0; }
-  
+
 .main-list {
   display: flex;
   flex-direction: column;
@@ -345,14 +342,14 @@ a {
   text-align: center;
   margin-bottom: 44px;
 }
-  
+
 .sub-items {
   list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-  
+
 .sub-items li {
   font-family: Inter, sans-serif;
   font-size: 22px;
@@ -360,7 +357,7 @@ a {
   margin-top: 20px;
   list-style: none;
 }
-  
+
 .main-list .language {
   list-style-image: url(/img/rect1.png);
   font-family: InaiMathi, sans-serif;
@@ -370,7 +367,7 @@ a {
   line-height: 44px;
   margin: 0 12px 44px;
 }
-  
+
 .main-list .frameworks {
   list-style-image: url(/img/rect2.png);
   font-family: InaiMathi, sans-serif;
@@ -380,7 +377,7 @@ a {
   line-height: 44px;
   margin: 0 12px 44px;
 }
-  
+
 .main-list .skills {
   list-style-image: url(/img/circle1.png);
   font-family: InaiMathi, sans-serif;
@@ -390,7 +387,7 @@ a {
   line-height: 44px;
   margin: 0 12px 44px;
 }
-  
+
 .form {
   display: flex;
   flex-direction: column;
@@ -400,7 +397,7 @@ a {
   background-color: rgb(255, 255, 255);
   padding: 120px 24px 124px 24px;
 }
-  
+
 .form p {
   width: 327px;
   font-size: 32px;
@@ -411,7 +408,7 @@ a {
   text-align: center;
   color: #172b4d;
 }
-  
+
 .contact-form ul {
   display: flex;
   flex-direction: column;
@@ -421,7 +418,7 @@ a {
   padding: 0;
   margin: 0;
 }
-  
+
 .name {
   height: 48px;
   width: 327px;
@@ -431,7 +428,7 @@ a {
   font-family: Inter, sans-serif;
   color: #979493;
 }
-  
+
 .mail {
   height: 48px;
   width: 327px;
@@ -442,7 +439,7 @@ a {
   font-family: Inter, sans-serif;
   color: #979493;
 }
-  
+
 .msg {
   width: 303px;
   height: 90px;
@@ -453,7 +450,7 @@ a {
   line-height: 24px;
   text-align: left;
 }
-  
+
 input {
   border-top-style: hidden;
   border-right-style: hidden;
@@ -462,17 +459,17 @@ input {
   border-color: #dbd8d7;
   padding-left: 10px;
 }
-  
+
 textarea {
   border-style: none;
   background-color: #fbfaf7;
   margin: 24px 0 24px 0;
   padding: 12px;
 }
-  
+
 input:focus,
 textarea:focus { outline: none; }
-  
+
 .form-button {
   width: 135px;
   height: 48px;
@@ -489,13 +486,13 @@ textarea:focus { outline: none; }
   border: 0;
   cursor: pointer;
 }
-  
+
 .form-button:hover {
   background-color: #fff;
   color: #ff6b00;
   border: solid #ff6b00 1px;
 }
-  
+
 footer {
   display: flex;
   justify-content: center;
@@ -503,6 +500,5 @@ footer {
   left: 0;
   margin-top: 20px;
   width: 100%;
-  color: white;
-    
+  color: white;  
 }
