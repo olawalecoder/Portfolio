@@ -43,7 +43,7 @@ header {
   justify-content: flex-end;
   padding: 120px 24px;
   font-size: 24px;
-  background-image: url(img/Group_BIG.png);
+  background-image: url(../img/Group_BIG.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
@@ -242,7 +242,7 @@ a {
   width: 369px;
   height: 386px;
   margin: 0 0 24px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.4) 61.94%), url(/img/holder-2.png);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.4) 61.94%), url(../img/holder-2.png);
   background-size: cover;
 }
 
@@ -314,7 +314,7 @@ a {
   height: 1195px;
   margin: 120px auto 0;
   padding: 130px 140px 0;
-  background-image: url(img/big-bg2.png);
+  background-image: url(../img/big-bg2.png);
   background-repeat: no-repeat;
   background-position: 100% 9%;
 }
@@ -375,7 +375,7 @@ a {
 }
 
 .main-list .language {
-  list-style-image: url(img/rect1.png);
+  list-style-image: url(../img/rect1.png);
   font-family: InaiMathi, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -385,7 +385,7 @@ a {
 }
 
 .main-list .frameworks {
-  list-style-image: url(img/rect2.png);
+  list-style-image: url(../img/rect2.png);
   font-family: InaiMathi, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -395,7 +395,7 @@ a {
 }
 
 .main-list .skills {
-  list-style-image: url(img/circle1.png);
+  list-style-image: url(../img/circle1.png);
   font-family: InaiMathi, sans-serif;
   font-style: normal;
   font-weight: normal;
