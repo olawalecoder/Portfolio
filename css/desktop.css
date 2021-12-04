@@ -246,6 +246,10 @@ a {
   background-size: cover;
 }
 
+.proj2:hover {
+  transform: scale(0.9)
+}
+
 .proj2 h3 {
   font-family: Crete Round, sans-serif;
   font-size: 32px;
