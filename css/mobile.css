@@ -1,9 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  width: 375px;
-  height: 590px;
+  width: 100%;
+  height: 6968px;
 }
 
 header {
@@ -12,11 +17,9 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 36px;
-  padding-right: 36px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 20px;
   align-items: center;
+  width: 100%;
 }
 
 .intro {
@@ -24,12 +27,13 @@ header {
   color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  gap: 24px;
   padding: 120px 24px;
   font-size: 24px;
-  background-image: url(img/Group.png);
+  background-image: url(../img/Group.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
+  width: 100%;
 }
 
 h1 {
@@ -42,6 +46,7 @@ h1 {
   line-height: 64px;
   letter-spacing: 0.3700000047683716px;
   text-align: left;
+  width: 100%;
 }
 
 .logo {
@@ -55,6 +60,8 @@ h1 {
   margin-bottom: 12px;
 }
 
+.menu { display: none; }
+
 h3 {
   margin: 0;
   font-family: Roboto, sans-serif;
@@ -65,6 +72,7 @@ h3 {
   letter-spacing: 0;
   text-align: left;
   margin-bottom: 12px;
+  width: 100%;
 }
 
 p {
@@ -75,6 +83,7 @@ p {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
+  width: 100%;
 }
 
 .social-media {
@@ -101,10 +110,12 @@ a {
 
 .works {
   display: grid;
-  grid-template-columns: none;
+  grid-template-rows: auto;
   grid-gap: 24px;
-  margin: 0 24px;
-  align-items: center;
+  padding: 0 24px;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff;
 }
 
 .works h2 {
@@ -120,7 +131,7 @@ a {
 }
 
 .hline {
-  width: 327px;
+  width: 100%;
   margin-bottom: 80px;
   height: 1px;
   background: #212121;
@@ -131,6 +142,10 @@ a {
   height: 237px;
 }
 
+.proj1 {
+  width: 327px;
+}
+
 .proj1 h3 {
   font-family: Crete Round, sans-serif;
   font-size: 32px;
@@ -139,9 +154,13 @@ a {
   line-height: 44px;
   text-align: left;
   color: #091e42;
-  width: 327px;
+  width: 300px;
   height: 36px;
   margin: 24px 0 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 .proj1 p {
@@ -158,9 +177,8 @@ a {
 .tools {
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 6px;
   width: 297px;
-  width: 397px;
   height: 40px;
   padding: 0;
   margin: 12px 0;
@@ -197,6 +215,7 @@ a {
 .project-template {
   display: grid;
   grid-template-rows: repeat(6, auto);
+  width: 327px;
 }
 
 .proj2 {
@@ -205,7 +224,7 @@ a {
   width: 327px;
   height: 386px;
   margin: 0 0 24px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.4) 61.94%), url(img/holder-2.png);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.4) 61.94%), url(../img/holder-2.png);
   background-size: cover;
 }
 
@@ -273,11 +292,11 @@ a {
 .about {
   background: #1c1a19;
   color: #fff;
-  width: 375px;
+  width: 100%;
   height: 1901px;
-  margin: 120px auto;
-  overflow-x: hidden;
-  background-image: url(img/bg2.png);
+  margin: 120px 0 0 0;
+  padding: 120px 0;
+  background-image: url(../img/bg2.png);
   background-repeat: no-repeat;
   background-position: 100% 19%;
 }
@@ -291,14 +310,16 @@ a {
 .about h1 {
   font-size: 72px;
   line-height: 88px;
-  width: 327px;
-  height: 79px;
+  width: 100%;
+  height: 100%;
 }
 
 .about p {
-  width: 327px;
-  height: 148px;
+  width: 100%;
+  height: 100%;
   color: #fff;
+  margin-bottom: 12px;
+  padding-right: 12px;
 }
 
 .about button {
@@ -307,7 +328,9 @@ a {
 
 .about .hline {
   background: rgb(243, 243, 243);
-  margin: 0 24px 135px;
+  margin: 0 0 135px;
+  padding: 0 24px;
+  width: 100%;
 }
 
 .about ul { padding: 0; }
@@ -336,7 +359,7 @@ a {
 }
 
 .main-list .language {
-  list-style-image: url(img/rect1.png);
+  list-style-image: url(../img/rect1.png);
   font-family: InaiMathi, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -346,7 +369,7 @@ a {
 }
 
 .main-list .frameworks {
-  list-style-image: url(img/rect2.png);
+  list-style-image: url(../img/rect2.png);
   font-family: InaiMathi, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -356,7 +379,7 @@ a {
 }
 
 .main-list .skills {
-  list-style-image: url(img/circle1.png);
+  list-style-image: url(../img/circle1.png);
   font-family: InaiMathi, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -366,10 +389,13 @@ a {
 }
 
 .form {
-  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   height: 845px;
-  background-color: #fff;
-  margin: 120px 24px 124px 24px;
+  background-color: rgb(255, 255, 255);
+  padding: 120px 24px 124px 24px;
 }
 
 .form p {
@@ -431,6 +457,7 @@ input {
   border-left-style: hidden;
   border-bottom-style: groove;
   border-color: #dbd8d7;
+  padding-left: 10px;
 }
 
 textarea {
@@ -464,4 +491,14 @@ textarea:focus { outline: none; }
   background-color: #fff;
   color: #ff6b00;
   border: solid #ff6b00 1px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 0;
+  margin-top: 20px;
+  width: 100%;
+  color: white;
 }
