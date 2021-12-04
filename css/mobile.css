@@ -10,7 +10,7 @@ body {
   width: 100%;
   height: 6968px;
 }
-  
+
 header {
   background-color: #3c3a39;
   color: #fff;
@@ -117,7 +117,7 @@ a {
   width: 100%;
   background-color: #fff;
 }
- 
+
 .works h2 {
   margin-top: 120px;
   width: 327px;
@@ -300,13 +300,13 @@ a {
   background-repeat: no-repeat;
   background-position: 100% 19%;
 }
- 
+
 .intro2 {
   display: flex;
   flex-direction: column;
   margin: 10px 0 209px 24px;
 }
- 
+
 .about h1 {
   font-size: 72px;
   line-height: 88px;
@@ -500,5 +500,5 @@ footer {
   left: 0;
   margin-top: 20px;
   width: 100%;
-  color: white;  
+  color: white;
 }
