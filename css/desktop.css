@@ -2,46 +2,59 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  width: 375px;
-  height: 590px;
+  width: 100%;
+  height: 4561px;
 }
 
 header {
-  background-color: #3c3a39;
-  color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 36px;
-  padding-right: 36px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   align-items: center;
+  height: 72px;
+  background-color: #3c3a39;
+  color: #fff;
+  padding: 10px 150px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 32px;
 }
 
 .intro {
   background-color: #1c1a19;
   color: #fff;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
   padding: 120px 24px;
   font-size: 24px;
-  background-image: url(img/Group.png);
+  background-image: url(/img/Group_BIG.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
+}
+
+.dsktp-intro {
+  margin-left: 70px;
 }
 
 h1 {
   color: #ff6b00;
   margin-bottom: 12px;
   font-family: 'Crete Round', sans-serif;
-  font-size: 56px;
+  font-size: 72px;
   font-style: normal;
   font-weight: 400;
-  line-height: 64px;
+  line-height: 81px;
+  width: 400px;
   letter-spacing: 0.3700000047683716px;
   text-align: left;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .logo {
@@ -52,7 +65,6 @@ h1 {
   line-height: 24px;
   letter-spacing: 0;
   text-align: center;
-  margin-bottom: 12px;
 }
 
 h3 {
@@ -64,6 +76,7 @@ h3 {
   line-height: 32px;
   letter-spacing: 0;
   text-align: left;
+  width: 400px;
   margin-bottom: 12px;
 }
 
@@ -75,11 +88,19 @@ p {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
+  width: 400px;
 }
 
 .social-media {
   display: flex;
+  flex-direction: column;
+  gap: 23px;
   list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
 }
 
 .icons { padding-right: 20px; }
@@ -90,27 +111,27 @@ a {
 }
 
 .button {
-  background-color: #3c3a39;
-  border: none;
-  padding: 5px 5px;
-  display: inline-block;
-  margin-bottom: 5px;
-  font-size: 16px;
-  cursor: pointer;
+  display: none;
 }
 
 .works {
   display: grid;
-  grid-template-columns: none;
+  grid-template-rows: auto;
   grid-gap: 24px;
-  margin: 0 24px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.dsktp-works-top {
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  padding: 135px 24px 114px 150px;
 }
 
 .works h2 {
-  margin-top: 120px;
   width: 327px;
-  height: 83px;
+  height: 52px;
   font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -120,16 +141,17 @@ a {
 }
 
 .hline {
-  width: 327px;
-  margin-bottom: 80px;
+  width: 794px;
   height: 1px;
   background: #212121;
 }
 
-.first-proj-picture {
-  width: 327px;
-  height: 237px;
+.proj1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
+
 
 .proj1 h3 {
   font-family: Crete Round, sans-serif;
@@ -141,7 +163,6 @@ a {
   color: #091e42;
   width: 327px;
   height: 36px;
-  margin: 24px 0 0;
 }
 
 .proj1 p {
@@ -205,7 +226,7 @@ a {
   width: 327px;
   height: 386px;
   margin: 0 0 24px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.4) 61.94%), url(img/holder-2.png);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.4) 61.94%), url(/img/holder-2.png);
   background-size: cover;
 }
 
@@ -273,11 +294,11 @@ a {
 .about {
   background: #1c1a19;
   color: #fff;
-  width: 375px;
+  width: 100%;
   height: 1901px;
   margin: 120px auto;
   overflow-x: hidden;
-  background-image: url(img/bg2.png);
+  background-image: url(/img/bg2.png);
   background-repeat: no-repeat;
   background-position: 100% 19%;
 }
@@ -336,7 +357,7 @@ a {
 }
 
 .main-list .language {
-  list-style-image: url(img/rect1.png);
+  list-style-image: url(/img/rect1.png);
   font-family: InaiMathi, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -346,7 +367,7 @@ a {
 }
 
 .main-list .frameworks {
-  list-style-image: url(img/rect2.png);
+  list-style-image: url(/img/rect2.png);
   font-family: InaiMathi, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -356,7 +377,7 @@ a {
 }
 
 .main-list .skills {
-  list-style-image: url(img/circle1.png);
+  list-style-image: url(/img/circle1.png);
   font-family: InaiMathi, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -366,7 +387,10 @@ a {
 }
 
 .form {
-  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   height: 845px;
   background-color: #fff;
   margin: 120px 24px 124px 24px;
