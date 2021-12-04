@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -15,6 +21,7 @@ header {
   background-color: #3c3a39;
   color: #fff;
   padding: 10px 150px;
+  /* position: fixed; */
 }
 
 .menu {
@@ -28,6 +35,7 @@ header {
   background-color: #1c1a19;
   color: #fff;
   display: flex;
+  height: 800px;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: flex-end;
@@ -50,11 +58,12 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: 81px;
-  width: 400px;
+  width: 100%;
   letter-spacing: 0.3700000047683716px;
   text-align: left;
   margin-block-start: 0;
   margin-block-end: 0;
+  padding-right: 24px;
 }
 
 .logo {
@@ -76,7 +85,8 @@ h3 {
   line-height: 32px;
   letter-spacing: 0;
   text-align: left;
-  width: 400px;
+  width: 100%;
+  max-width: 600px;
   margin-bottom: 12px;
 }
 
@@ -88,7 +98,9 @@ p {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  width: 400px;
+  width: 100%;
+  max-width: 600px;
+  padding-right: 24px;
 }
 
 .social-media {
@@ -116,17 +128,19 @@ a {
 
 .works {
   display: grid;
-  grid-template-rows: auto;
-  grid-gap: 24px;
+  grid-template-columns: repeat (3, 1fr);
+  gap: 24px;
   width: 100%;
   background-color: #fff;
+  padding: 135px 140px 0;
+  justify-content: center;
 }
 
 .dsktp-works-top {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 135px 24px 114px 150px;
+  padding: 0 5px 90px 5px;
 }
 
 .works h2 {
@@ -150,30 +164,31 @@ a {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  gap: 24px;
 }
 
 
 .proj1 h3 {
   font-family: Crete Round, sans-serif;
-  font-size: 32px;
+  font-size: 40px;
   font-style: normal;
   font-weight: normal;
-  line-height: 44px;
+  line-height: 52px;
   text-align: left;
   color: #091e42;
-  width: 327px;
-  height: 36px;
+  width: 448px;
+  height: 48px;
 }
 
 .proj1 p {
   font-family: Inter, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 28px;
   text-align: left;
   color: #091e42;
-  width: 327px;
-  height: 147px;
-  margin: 12px 0 0;
+  width: 448px;
+  height: 140px;
+  margin: 24px 0 0;
 }
 
 .tools {
@@ -181,10 +196,9 @@ a {
   flex-direction: row;
   gap: 12px;
   width: 297px;
-  width: 397px;
   height: 40px;
   padding: 0;
-  margin: 12px 0;
+  margin: 24px 0;
 }
 
 .tools li {
@@ -217,13 +231,14 @@ a {
 
 .project-template {
   display: grid;
-  grid-template-rows: repeat(6, auto);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px;
 }
 
 .proj2 {
   display: flex;
   flex-direction: column;
-  width: 327px;
+  width: 369px;
   height: 386px;
   margin: 0 0 24px;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.4) 61.94%), url(/img/holder-2.png);
@@ -238,19 +253,19 @@ a {
   line-height: 44px;
   text-align: left;
   color: #fff;
-  width: 295px;
-  height: 81px;
+  width: 337px;
+  height: 100%;
   margin: 84px 16px 12px 16px;
 }
 
 .proj2 p {
   font-family: Inter, sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
   text-align: left;
   color: #fff;
-  width: 295px;
-  height: 87px;
+  width: 337px;
+  height: 100%;
   margin: 0 16px 12px;
 }
 
@@ -280,7 +295,7 @@ a {
   background: #ff6b00;
   border: 0;
   color: #fff;
-  width: 327px;
+  width: 369px;
   height: 48px;
   padding: 12px 100px;
   font-family: Inter, sans-serif;
@@ -295,30 +310,32 @@ a {
   background: #1c1a19;
   color: #fff;
   width: 100%;
-  height: 1901px;
+  height: 1195px;
   margin: 120px auto;
-  overflow-x: hidden;
-  background-image: url(/img/bg2.png);
+  padding: 130px 140px 0;
+  background-image: url(/img/big-bg2.png);
   background-repeat: no-repeat;
-  background-position: 100% 19%;
+  background-position: 100% 9%;
 }
 
 .intro2 {
   display: flex;
   flex-direction: column;
-  margin: 10px 0 209px 24px;
+  gap: 24px;
+  margin-bottom: 130px;
 }
 
 .about h1 {
   font-size: 72px;
   line-height: 88px;
-  width: 327px;
-  height: 79px;
+  width: 100%;
+  height: 100%;
 }
 
 .about p {
-  width: 327px;
-  height: 148px;
+  min-width: 235px;
+  width: 100%;
+  height: 100%;
   color: #fff;
 }
 
@@ -328,16 +345,16 @@ a {
 
 .about .hline {
   background: rgb(243, 243, 243);
-  margin: 0 24px 135px;
+  margin-bottom: 145px;
+  width: 100%;
 }
 
 .about ul { padding: 0; }
 
 .main-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  flex-direction: row;
+  gap: 400px;
   margin-bottom: 44px;
 }
 
@@ -345,7 +362,7 @@ a {
   list-style: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .sub-items li {
@@ -388,8 +405,8 @@ a {
 
 .form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
   height: 845px;
   background-color: #fff;
@@ -397,20 +414,20 @@ a {
 }
 
 .form p {
-  width: 327px;
-  font-size: 32px;
+  width: 455px;
+  font-size: 40px;
   font-family: inter, sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  text-align: center;
+  text-align: left;
   color: #172b4d;
 }
 
 .contact-form ul {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 327px;
   list-style: none;
   padding: 0;
@@ -484,7 +501,7 @@ textarea:focus { outline: none; }
   cursor: pointer;
 }
 
-.form-button:hover {
+button:hover {
   background-color: #fff;
   color: #ff6b00;
   border: solid #ff6b00 1px;

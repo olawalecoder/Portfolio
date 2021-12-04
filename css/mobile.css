@@ -47,7 +47,7 @@ body {
     line-height: 64px;
     letter-spacing: 0.3700000047683716px;
     text-align: left;
-    width: 327px;
+    width: 100%;
   }
   
   .logo {
@@ -75,7 +75,7 @@ body {
     letter-spacing: 0;
     text-align: left;
     margin-bottom: 12px;
-    width: 327px;
+    width: 100%;
   }
   
   p {
@@ -86,7 +86,7 @@ body {
     line-height: 24px;
     letter-spacing: 0;
     text-align: left;
-    width: 327px;
+    width: 100%;
   }
   
   .social-media {
@@ -117,7 +117,6 @@ body {
     grid-gap: 24px;
     padding: 0 24px;
     justify-content: center;
-    /* align-items: center; */
     width: 100%;
     background-color: #fff;
   }
@@ -135,7 +134,7 @@ body {
   }
   
   .hline {
-    width: 327px;
+    width: 100%;
     margin-bottom: 80px;
     height: 1px;
     background: #212121;
@@ -183,7 +182,6 @@ body {
     flex-direction: row;
     gap: 6px;
     width: 297px;
-    width: 397px;
     height: 40px;
     padding: 0;
     margin: 12px 0;
@@ -299,8 +297,8 @@ body {
     color: #fff;
     width: 100%;
     height: 1901px;
-    margin: 120px 0 0;
-    padding: 120px 24px;
+    margin: 120px 0 0 0;
+    padding: 120px 0px;
     overflow-x: hidden;
     background-image: url(/img/bg2.png);
     background-repeat: no-repeat;
@@ -316,14 +314,16 @@ body {
   .about h1 {
     font-size: 72px;
     line-height: 88px;
-    width: 327px;
-    height: 79px;
+    width: 100%;
+    height: 100%;
   }
   
   .about p {
-    width: 327px;
-    height: 148px;
+    width: 100%;
+    height: 100%;
     color: #fff;
+    margin-bottom: 12px;
+    padding-right: 12px;
   }
   
   .about button {
@@ -332,7 +332,9 @@ body {
   
   .about .hline {
     background: rgb(243, 243, 243);
-    margin: 0 24px 135px;
+    margin: 0 0 135px;
+    padding: 0 24px;
+    width: 100%;
   }
   
   .about ul { padding: 0; }
