@@ -21,7 +21,6 @@ header {
   background-color: #3c3a39;
   color: #fff;
   padding: 10px 150px;
-  /* position: fixed; */
 }
 
 .menu {
@@ -128,7 +127,7 @@ a {
 
 .works {
   display: grid;
-  grid-template-columns: repeat (3, 1fr);
+  grid-template-rows: auto;
   gap: 24px;
   width: 100%;
   background-color: #fff;
@@ -166,7 +165,6 @@ a {
   align-items: flex-start;
   gap: 24px;
 }
-
 
 .proj1 h3 {
   font-family: Crete Round, sans-serif;
@@ -232,7 +230,7 @@ a {
 .project-template {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0px;
+  grid-gap: 0;
 }
 
 .proj2 {
