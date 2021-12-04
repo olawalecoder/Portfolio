@@ -21,6 +21,8 @@ header {
   background-color: #3c3a39;
   color: #fff;
   padding: 10px 150px;
+  position: fixed;
+  width: 100%;
 }
 
 .menu {
@@ -35,6 +37,7 @@ header {
   color: #fff;
   display: flex;
   height: 800px;
+  width: 100%;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: flex-end;
