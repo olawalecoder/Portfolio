@@ -7,10 +7,6 @@ This is portfolio website that showcases projects I have worked on and more abou
 - Html
 - Css
 
-## Online Version
-Click on the link below to veiw the online version
-https://olawalecoder.github.io/Portfolio/
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
