@@ -28,13 +28,6 @@ body {
 
 #slidebar.appear { top: 0; }
 
-.hr {
-  background: #6f6c6b;
-  width: 300px;
-  margin: 10px 0 10px;
-  height: 1px;
-}
-
 .nav-menu { list-style: none; }
 
 a {
@@ -50,11 +43,14 @@ a {
   font-size: 32px;
   line-height: 44px;
   color: #fff5e1;
+  border-bottom: 1px solid #6f6c6b;
+  padding-bottom: 12px;
 }
 
 .nav-menu li {
   padding-left: 16px;
   text-align: left;
+  margin-bottom: 24px;
 }
 
 .x {
