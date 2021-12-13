@@ -26,6 +26,10 @@ body {
   padding: 108px 24px 0;
 }
 
+#slidebar.appear {
+  top: 0;
+}
+
 #slidebar hr {
   margin: 0;
   padding: 0;
