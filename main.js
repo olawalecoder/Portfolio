@@ -3,7 +3,7 @@ const closeMenu = document.querySelectorAll('.hide');
 const slideMenu = document.querySelector('#slidebar');
 
 openMenu.addEventListener('click', function () {
-  slideMenu.classList.add('appear');
+  slideMenu.classList.add('appear')
 });
 
 closeMenu.forEach((element) => {
