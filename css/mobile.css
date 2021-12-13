@@ -26,16 +26,16 @@ body {
   padding: 108px 24px 0;
 }
 
-#slidebar.appear {
-  top: 0;
-}
+#slidebar.appear { top: 0; }
 
 #slidebar hr {
   margin: 0;
   padding: 0;
-  color: #fff;
+  background: #6f6c6b;
   width: 300px;
 }
+
+.nav-menu { list-style: none; }
 
 .nav-menu a {
   text-decoration: none;
@@ -52,9 +52,17 @@ body {
   text-align: left;
 }
 
-.x { 
-   font-size:20px;
-   color: #fff;
+.x {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -80px;
+  right: 30px;
+  font-size: 40px;
+  width: 10px;
+  height: 10px;
+  color:  #b8b8b8;
+  cursor: pointer;
 }
 header {
   background-color: #3c3a39;
