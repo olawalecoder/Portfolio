@@ -28,11 +28,11 @@ body {
 
 #slidebar.appear { top: 0; }
 
-#slidebar hr {
-  margin: 0;
-  padding: 0;
+.hr {
   background: #6f6c6b;
   width: 300px;
+  margin: 10px 0 10px;
+  height: 1px;
 }
 
 .nav-menu { list-style: none; }
@@ -44,7 +44,7 @@ a {
 
 .nav-menu a {
   text-decoration: none;
-  font-family: Inter,  sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
