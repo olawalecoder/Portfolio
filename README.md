@@ -20,7 +20,7 @@ Clone the repo with <git@github.com:olawalecoder/Portfolio.git>
 Run cd <RestoreauntApi> to navigate to the project folder
 Run <npm install> from the command line
 Run <npm start> to start the local server in the browser
-
+ 
 # Prerequisites
  - Have <git> installed
  - Have a text editor installed
@@ -35,6 +35,12 @@ Run <npm start> to start the local server in the browser
 ## Author 2
 - GitHub: [@Anny85-code](https://github.com/Anny85-code)
 - Twitter: [@Annyudo8](https://twitter.com/Annyudo8)
+
+## Author 3
+- GitHub: [@clintonjosephs](https://github.com/clintonjosephs)
+- Twitter: [@clintonmbonu_](https://twitter.com/clintonmbonu_)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/clinton-mbonu)
+
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
