@@ -15,6 +15,30 @@ body {
   height: 100%;
 }
 
+@media only screen and (min-width: 922px) {
+  .title-short {
+    display: none;
+  }
+  }
+
+.pop-flex {
+  display: flex;
+ 
+}
+
+.pop-img {
+  flex: 2;
+  height: 448px;
+  
+}
+
+.pop-txt {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -344,11 +368,11 @@ a {
 
 .pop-button {
   display: flex;
-  justify-content: space-between;
+  gap: 16px;
 }
 
 .pop-button > .Proj-button {
-  width: 40%;
+  width: 180px;
 }
 
 

@@ -592,3 +592,8 @@ footer {
   width: 100%;
   color: white;
 }
+
+  .title-long {
+    display: none;
+  }
+  
