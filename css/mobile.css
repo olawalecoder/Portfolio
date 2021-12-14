@@ -20,7 +20,7 @@ body {
   position: fixed;
   top: -100%;
   width: 100%;
-  height: 80%;
+  height: 100%;
   background-color: #3c3a39;
   z-index: 1000;
   padding: 108px 24px 0;
@@ -43,15 +43,17 @@ a {
   font-size: 32px;
   line-height: 44px;
   color: #fff5e1;
-  border-bottom: 1px solid #6f6c6b;
   padding-bottom: 12px;
 }
 
 .nav-menu li {
+  border-bottom: 1px solid #6f6c6b;
   padding-left: 16px;
   text-align: left;
   margin-bottom: 24px;
 }
+
+.nav-menu-container { width: 100%; }
 
 .x {
   margin: 0;
