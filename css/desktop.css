@@ -310,6 +310,48 @@ a {
   cursor: pointer;
 }
 
+
+.pop-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-x {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 30px;
+  font-size: 40px;
+  width: 10px;
+  height: 10px;
+  color: #b8b8b8;
+  cursor: pointer;
+}
+
+.title-long {
+  font-size: 32px;
+  color: #091e42;
+}
+
+.pop-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pop-button > .Proj-button {
+  width: 40%;
+}
+
+
 .about {
   background: #1c1a19;
   color: #fff;
