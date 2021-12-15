@@ -514,6 +514,27 @@ p {
   margin: 0;
 }
 
+.contact-form small {
+	color: #e74c3c;
+	position: relative;
+	bottom: 10px;
+	left: 20px;
+	visibility: hidden;
+}
+
+.contact-form i {
+	color: #e74c3c;
+	position: relative;
+	bottom: 10px;
+	left: 20px;
+	visibility: hidden;
+}
+
+.contact-form.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
 .name {
   height: 48px;
   width: 327px;
