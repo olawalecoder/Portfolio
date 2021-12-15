@@ -344,6 +344,7 @@ p {
 .pop-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 24px;
   padding: 16px;
   width: 100%;
@@ -378,6 +379,10 @@ p {
 }
 
 .pop-button > .Proj-button { width: 40%; }
+
+.pop-img {
+  height: 220px;
+}
 
 .about {
   background: #1c1a19;
