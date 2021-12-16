@@ -541,6 +541,13 @@ input {
   border-color: #dbd8d7;
 }
 
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 100%;
+}
+
 textarea {
   border-style: none;
   background-color: #fbfaf7;
