@@ -514,27 +514,6 @@ p {
   margin: 0;
 }
 
-.contact-form small {
-	color: #e74c3c;
-	position: relative;
-	bottom: 10px;
-	left: 20px;
-	visibility: hidden;
-}
-
-.contact-form i {
-	color: #e74c3c;
-	position: relative;
-	bottom: 10px;
-	left: 20px;
-	visibility: hidden;
-}
-
-.contact-form.error i.fa-exclamation-circle {
-	color: #e74c3c;
-	visibility: visible;
-}
-
 .name {
   height: 48px;
   width: 327px;
@@ -574,6 +553,13 @@ input {
   border-bottom-style: groove;
   border-color: #dbd8d7;
   padding-left: 10px;
+}
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 100%;
 }
 
 textarea {
