@@ -7,15 +7,11 @@ contactForm.addEventListener('change', () => {
 
     if (name.value.trim() !== '') {
         obj.userName = name.value.trim();
-    }
-    
-    if (email.value.trim() !== '') {
+    } else if (email.value.trim() !== '') {
         obj.userEmail = email.value.trim();
-    }
-
-    if (msg.value.trim() !== '') {
+    } else (msg.value.trim() !== '')
         obj.userMessage = msg.value.trim()
-    }
+    
 
     localStorage.setItem('formData', JSON.stringify(obj));
 });
