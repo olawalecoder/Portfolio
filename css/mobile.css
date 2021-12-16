@@ -121,7 +121,7 @@ h1 {
 
 h3 {
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -174,7 +174,7 @@ p {
   margin-top: 120px;
   width: 327px;
   height: 83px;
-  font-family: Crete Round, sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -339,6 +339,49 @@ p {
   letter-spacing: 0.03em;
   text-align: center;
   cursor: pointer;
+}
+
+.pop-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  padding: 16px;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-x {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 30px;
+  font-size: 40px;
+  width: 10px;
+  height: 10px;
+  color: #b8b8b8;
+  cursor: pointer;
+}
+
+.title h3 {
+  font-size: 32px;
+  color: #091e42;
+}
+
+.pop-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pop-button > .Proj-button { width: 40%; }
+
+.pop-img {
+  height: 220px;
 }
 
 .about {
@@ -512,6 +555,17 @@ input {
   padding-left: 10px;
 }
 
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 100%;
+}
+
+#message {
+  font-family: Inter, sans-serif;
+}
+
 textarea {
   border-style: none;
   background-color: #fbfaf7;
@@ -554,3 +608,5 @@ footer {
   width: 100%;
   color: white;
 }
+
+.title-long { display: none; }
