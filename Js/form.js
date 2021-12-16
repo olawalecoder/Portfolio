@@ -6,10 +6,10 @@ form.addEventListener('submit', (e) => {
   const pattern = /^[^]+@[^]+\.[a-z]{2,3}$/;
   if (email === email.toLowerCase() && email.match(pattern)) {
     message.innerHTML = 'Your Email Address is Valid. Form is sent.';
-    message.style.color = '#00ff00';
+    message.style.color = '#F55800';
     form.submit();
   } else {
-    message.innerHTML = 'Please use lowercase!. Form is not sent';
+    message.innerHTML = 'Please write your email in lowercase!. The form was not sent';
     message.style.color = '#ff0000';
     e.preventDefault();
   }
