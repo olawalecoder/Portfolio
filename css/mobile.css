@@ -605,7 +605,4 @@ footer {
   color: white;
 }
 
-  .title-long {
-    display: none;
-  }
-  
+.title-long { display: none; }
