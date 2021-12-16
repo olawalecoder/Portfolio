@@ -26,7 +26,7 @@ closeMenu.forEach((element) => {
 //   {
 //     project: 1,
 //     title: 'Multi Post Stories',
-//     description: "A daily selection of privately personalized reads; 
+//     description: "A daily selection of privately personalized reads;
 //     no accounts or sign-ups required. has been the industry's standard.",
 //     img: 'img/Placeholder.png',
 //     technologies: ['css', 'html', 'bootstrap', 'ruby'],
@@ -36,7 +36,7 @@ closeMenu.forEach((element) => {
 //   {
 //     project: 2,
 //     title: 'Profesional Art Printing Data',
-//     description: "A daily selection of privately personalized reads; 
+//     description: "A daily selection of privately personalized reads;
 //     no accounts or sign-ups required. has been the industry's standard.",
 //     img: 'img/holder-2.png',
 //     technologies: ['html', 'bootstrap', 'ruby'],
@@ -46,7 +46,7 @@ closeMenu.forEach((element) => {
 //   {
 //     project: 3,
 //     title: 'Data Dashboard Healthcare',
-//     description: "A daily selection of privately personalized reads; 
+//     description: "A daily selection of privately personalized reads;
 //     no accounts or sign-ups required. has been the industry's standard.",
 //     img: 'img/holder-2.png',
 //     technologies: ['html', 'bootstrap', 'ruby'],
@@ -56,7 +56,7 @@ closeMenu.forEach((element) => {
 //   {
 //     project: 4,
 //     title: 'Profesional Art Printing Data',
-//     description: "A daily selection of privately personalized reads; 
+//     description: "A daily selection of privately personalized reads;
 //     no accounts or sign-ups required. has been the industry's standard.",
 //     img: 'img/holder-2.png',
 //     technologies: ['html', 'bootstrap', 'ruby'],
@@ -66,7 +66,7 @@ closeMenu.forEach((element) => {
 //   {
 //     project: 5,
 //     title: 'Profesional Art Printing Data',
-//     description: "A daily selection of privately personalized reads; 
+//     description: "A daily selection of privately personalized reads;
 //     no accounts or sign-ups required. has been the industry's standard.",
 //     img: 'img/holder-2.png',
 //     technologies: ['html', 'bootstrap', 'ruby'],
@@ -76,7 +76,7 @@ closeMenu.forEach((element) => {
 //   {
 //     project: 6,
 //     title: 'Profesional Art Printing Data',
-//     description: "A daily selection of privately personalized reads; 
+//     description: "A daily selection of privately personalized reads;
 //     no accounts or sign-ups required. has been the industry's standard.",
 //     img: 'img/holder-2.png',
 //     technologies: ['html', 'bootstrap', 'ruby'],
