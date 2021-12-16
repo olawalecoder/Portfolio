@@ -121,7 +121,7 @@ h1 {
 
 h3 {
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -174,7 +174,7 @@ p {
   margin-top: 120px;
   width: 327px;
   height: 83px;
-  font-family: Crete Round, sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -341,6 +341,49 @@ p {
   cursor: pointer;
 }
 
+.pop-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  padding: 16px;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-x {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 30px;
+  font-size: 40px;
+  width: 10px;
+  height: 10px;
+  color: #b8b8b8;
+  cursor: pointer;
+}
+
+.title h3 {
+  font-size: 32px;
+  color: #091e42;
+}
+
+.pop-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pop-button > .Proj-button { width: 40%; }
+
+.pop-img {
+  height: 220px;
+}
+
 .about {
   background: #1c1a19;
   color: #fff;
@@ -471,6 +514,27 @@ p {
   margin: 0;
 }
 
+.contact-form small {
+	color: #e74c3c;
+	position: relative;
+	bottom: 10px;
+	left: 20px;
+	visibility: hidden;
+}
+
+.contact-form i {
+	color: #e74c3c;
+	position: relative;
+	bottom: 10px;
+	left: 20px;
+	visibility: hidden;
+}
+
+.contact-form.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
 .name {
   height: 48px;
   width: 327px;
@@ -554,3 +618,8 @@ footer {
   width: 100%;
   color: white;
 }
+
+  .title-long {
+    display: none;
+  }
+  
