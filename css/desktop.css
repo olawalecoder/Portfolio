@@ -133,7 +133,7 @@ a {
 
 .works {
   display: grid;
-  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 24px;
   width: 100%;
   background-color: #fff;
@@ -324,6 +324,11 @@ a {
   justify-content: space-between;
 }
 
+.title h3 {
+  font-size: 32px;
+  color: #091e42;
+}
+
 .title-x {
   margin: 0;
   padding: 0;
@@ -336,11 +341,6 @@ a {
   cursor: pointer;
 }
 
-.title-long {
-  font-size: 32px;
-  color: #091e42;
-}
-
 .pop-button {
   display: flex;
   gap: 16px;
@@ -349,7 +349,6 @@ a {
 .pop-button > .Proj-button {
   width: 180px;
 }
-.title-short { display: none; }
 
 .pop-flex {
   display: flex;
