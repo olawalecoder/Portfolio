@@ -3,21 +3,21 @@ const { name, email, msg } = contactForm.elements;
 
 // storing the form in LocalStorage
 contactForm.addEventListener('change', () => {
-    const obj = {};
+  const obj = {};
 
-    if (name.value.trim() !== '') {
-        obj.userName = name.value.trim();
-    }
-    
-    if (email.value.trim() !== '') {
-        obj.userEmail = email.value.trim();
-    }
+  if (name.value.trim() !== '') {
+    obj.userName = name.value.trim();
+  }
 
-    if (msg.value.trim() !== '') {
-        obj.userMessage = msg.value.trim();
-    }
+  if (email.value.trim() !== '') {
+    obj.userEmail = email.value.trim();
+  }
 
-    localStorage.setItem('formData', JSON.stringify(obj));
+  if (msg.value.trim() !== '') {
+    obj.userMessage = msg.value.trim();
+  }
+
+  localStorage.setItem('formData', JSON.stringify(obj));
 });
 
 // set Localstorage data to form
