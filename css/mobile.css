@@ -555,6 +555,17 @@ input {
   padding-left: 10px;
 }
 
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 100%;
+}
+
+#message {
+  font-family: Inter, sans-serif;
+}
+
 textarea {
   border-style: none;
   background-color: #fbfaf7;
@@ -598,7 +609,4 @@ footer {
   color: white;
 }
 
-  .title-long {
-    display: none;
-  }
-  
+.title-long { display: none; }

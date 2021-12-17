@@ -358,14 +358,14 @@ a {
   justify-content: space-between;
 }
 
-.pop-txt {  
+.pop-txt {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .pop-txt p {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -539,6 +539,17 @@ input {
   border-left-style: hidden;
   border-bottom-style: groove;
   border-color: #dbd8d7;
+}
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 100%;
+}
+
+#message {
+  font-family: Inter, sans-serif;
 }
 
 textarea {
