@@ -77,6 +77,8 @@ header {
   padding: 10px 20px;
   align-items: center;
   width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 .intro {
@@ -346,9 +348,16 @@ p {
   flex-direction: column;
   justify-content: center;
   gap: 24px;
+  height: 100%;
   padding: 16px;
-  width: 100%;
+  width: auto;
+  z-index: 1000;
+  border: 2px solid red'
 }
+
+ /* .pop-container.show {
+  visibility: visible;  
+}  */
 
 .title {
   display: flex;
@@ -364,7 +373,7 @@ p {
   font-size: 40px;
   width: 10px;
   height: 10px;
-  color: #b8b8b8;
+  color: red;
   cursor: pointer;
 }
 

@@ -73,29 +73,29 @@ const myProjects = [{
 const projectSection = document.querySelector('.works');
 const firstProject = document.querySelector('.firstproject');
 
-firstProject.innerHTML = `<div class="dsktp-works-top">
-<h2>My Recent Works</h2>
-<div class="hline"></div>
-</div>
+ firstProject.innerHTML = `<div class="dsktp-works-top">
+ <h2>My Recent Works</h2>
+ <div class="hline"></div>
+ </div>
 
-<div class="proj1">
-<img class="first-proj-picture" src="${myProjects[0].img}" alt="" />
-<div class="dsktp-proj1">
-  <h3>Multi-Post Stories</h3>
-  <p>
-    A daily selection of privately personalized reads; no accounts or
-    sign-ups required. has been the industry's standard dummy text ever
+ <div class="proj1">
+ <img class="first-proj-picture" src="${myProjects[0].img}" alt="" />
+ <div class="dsktp-proj1">
+   <h3>Multi-Post Stories</h3>
+   <p>
+     A daily selection of privately personalized reads; no accounts or
+     sign-ups required. has been the industry's standard dummy text ever
     since the 1500s, when an unknown printer took a standard dummy text.
-  </p>
-  <ul class="tools">
+   </p>
+   <ul class="tools">
     <li>css</li>
-    <li>html</li>
-    <li>bootstrap</li>
-    <li>Ruby</li>
-  </ul>
-  <button id='${myProjects[0].id}' class="Proj-button open-button">See Project</button>
-</div>
-</div>`;
+     <li>html</li>
+     <li>bootstrap</li>
+     <li>Ruby</li>
+   </ul>
+   <button id='${myProjects[0].id}' class="Proj-button open-button">See Project</button>
+ </div>
+ </div>`;
 
 for (let i = 1; i < myProjects.length; i += 1) {
     const project = myProjects[i];
@@ -122,7 +122,8 @@ for (let i = 1; i < myProjects.length; i += 1) {
 const openPop = document.querySelectorAll('.open-button')
 const popUp = document.querySelector('.pop-container')
 
-openPop.forEach(element => {
+
+openPop.forEach((element) => {
     element.addEventListener('click', () => {
         const id = Number(element.id)
         for (let i = 0; i < myProjects.length; i += 1) {
@@ -151,15 +152,17 @@ openPop.forEach(element => {
             </div>
           </div>
         </div>
-      `
+      `;
             }
         }
+ 
 
-        popUp.classList.add('pop')
+        popUp.classList.add('show');
 
-        const closePop = document.querySelector('.title-x')
-        closePop.addEventListener('click', () => {
-            popUp.classList.remove('pop');
-        });
+        const closePop = document.querySelector('.title-x');
+      closePop.addEventListener('click', () => {
+  popUp.classList.remove('show');
+});
+       
     });
 });
