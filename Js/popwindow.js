@@ -173,6 +173,4 @@ openPop.forEach((element) => {
 function toggle() {
   let blur = document.getElementById('blur');
   blur.classList.toggle('active');
-  let noBlur = document.getElementsByClassName('.pop-container');
-  noBlur.classList.toggle('active');
 }
