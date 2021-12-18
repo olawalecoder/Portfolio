@@ -131,7 +131,7 @@ openPop.forEach((element) => {
             if (id === project.id) {
             popUp.innerHTML = `
           
-        <div class="pop-container">
+        <div class="pop-container;">
           <div class="title">
             <h3 class="title-short">${project.title}</h3>
             <span class="title-x">&times;</span>
@@ -144,7 +144,7 @@ openPop.forEach((element) => {
           <div class="pop-flex">
               <img class="pop-img" src="${project.img}" alt="a visual for project">
             <div class="pop-txt">
-              <p>${project.description}</p>
+              <p class='pop-ttxt'>${project.description}</p>
               <div class='pop-button'>
                 <button class="Proj-button">See Source <i class="fas fa-external-link-alt"></i></button>
                 <button class="Proj-button">See Live <i class="fab fa-github-square"></i></a></li></button>

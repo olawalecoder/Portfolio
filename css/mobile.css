@@ -162,6 +162,12 @@ p {
   cursor: pointer;
 }
 
+.dsktp-works-top {
+  padding: 0;
+  margin-left: 24px;
+  border: 2px solid red;
+}
+
 .works {
   display: grid;
   grid-template-rows: auto;
@@ -344,25 +350,25 @@ p {
 }
 
 .pop-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 24px;
-  height: 100%;
-  padding: 16px;
   width: auto;
+  height: auto;;
+  position: fixed;
+  background: #fff; 
   z-index: 1000;
-  border: 2px solid red'
+  top: 0;
+  padding: 16px 68px 100px 16px;
+  visibility: hidden;
 }
 
- /* .pop-container.show {
-  visibility: visible;  
-}  */
+.pop-container.show  {
+  visibility: visible;
+}
 
 .title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 50px; 
 }
 
 .title-x {
@@ -380,6 +386,11 @@ p {
 .title h3 {
   font-size: 32px;
   color: #091e42;
+  
+}
+
+.pop-ttxt {
+  margin: 24px 0;
 }
 
 .pop-button {
