@@ -1,79 +1,87 @@
-const myProjects = [{
-        id: 1,
-        title: 'Multi Post Stories',
+const myProjects = [
+  {
+    id: 1,
+    title: 'Multi Post Stories',
 
-        description: "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard.",
-        img: 'img/Placeholder.png',
-        technologies: ['css', 'html', 'bootstrap', 'ruby'],
-        live: '#',
-        source: '#'
-    },
-    {
-        id: 2,
-        title: 'Profesional Art Printing Data',
+    description:
+      "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard.",
+    img: 'img/Placeholder.png',
+    technologies: ['css', 'html', 'bootstrap', 'ruby'],
+    live: '#',
+    source: '#'
+  },
+  {
+    id: 2,
+    title: 'Profesional Art Printing Data',
 
-        description: "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard.",
-        img: 'img/holder-2.png',
-        technologies: ['html', 'bootstrap', 'ruby'],
-        live: '#',
-        source: '#'
-    },
-    {
-        id: 3,
-        title: 'Data Dashboard Healthcare',
+    description:
+      "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard.",
+    img: 'img/holder-1.png',
+    technologies: ['html', 'bootstrap', 'ruby'],
+    live: '#',
+    source: '#'
+  },
+  {
+    id: 3,
+    title: 'Data Dashboard Healthcare',
 
-        description: "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard.",
-        img: 'img/holder-2.png',
-        technologies: ['html', 'bootstrap', 'ruby'],
-        live: '#',
-        source: '#'
-    },
-    {
-        id: 4,
-        title: 'Profesional Art Printing Data',
+    description:
+      "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard.",
+    img: 'img/holder-2.png',
+    technologies: ['html', 'bootstrap', 'ruby'],
+    live: '#',
+    source: '#'
+  },
+  {
+    id: 4,
+    title: 'Profesional Art Printing Data',
 
-        description: "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard.",
-        img: './img/holder-2.png',
-        technologies: ['html', 'bootstrap', 'ruby'],
-        live: '#',
-        source: '#'
-    },
-    {
-        id: 5,
-        title: 'Profesional Art Printing Data',
+    description:
+      "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard.",
+    img: './img/holder-3.png',
+    technologies: ['html', 'bootstrap', 'ruby'],
+    live: '#',
+    source: '#'
+  },
+  {
+    id: 5,
+    title: 'Profesional Art Printing Data',
 
-        description: "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard.",
-        img: './img/holder-2.png',
-        technologies: ['html', 'bootstrap', 'ruby'],
-        live: '#',
-        source: '#'
-    },
-    {
-        id: 6,
-        title: 'Profesional Art Printing Data',
+    description:
+      "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard.",
+    img: './img/holder-4.png',
+    technologies: ['html', 'bootstrap', 'ruby'],
+    live: '#',
+    source: '#'
+  },
+  {
+    id: 6,
+    title: 'Profesional Art Printing Data',
 
-        description: "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard.",
-        img: './img/holder-2.png',
-        technologies: ['html', 'bootstrap', 'ruby'],
-        live: '#',
-        source: '#'
-    },
-    {
-        id: 7,
-        title: 'Profesional Art Printing Data',
+    description:
+      "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard.",
+    img: './img/holder-2.png',
+    technologies: ['html', 'bootstrap', 'ruby'],
+    live: '#',
+    source: '#'
+  },
+  {
+    id: 7,
+    title: 'Profesional Art Printing Data',
 
-        description: "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard.",
-        img: './img/holder-2.png',
-        technologies: ['html', 'bootstrap', 'ruby'],
-        live: '#',
-        source: '#'
-    }
+    description:
+      "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard.",
+    img: './img/holder-3.png',
+    technologies: ['html', 'bootstrap', 'ruby'],
+    live: '#',
+    source: '#'
+  }
 ]
 
-const projectSection = document.querySelector('.works');
-const firstProject = document.querySelector('.firstproject');
+const projectSection = document.querySelector('.works')
+const firstProject = document.querySelector('.firstproject')
 
- firstProject.innerHTML = `<div class="dsktp-works-top">
+firstProject.innerHTML = `<div class="dsktp-works-top">
  <h2>My Recent Works</h2>
  <div class="hline"></div>
  </div>
@@ -95,15 +103,15 @@ const firstProject = document.querySelector('.firstproject');
    </ul>
    <button id='${myProjects[0].id}' class="Proj-button open-button">See Project</button>
  </div>
- </div>`;
+ </div>`
 
 for (let i = 1; i < myProjects.length; i += 1) {
-    const project = myProjects[i];
-    projectSection.innerHTML += `
+  const project = myProjects[i]
+  projectSection.innerHTML += `
       
 
       <div class="project-template">
-        <div id=${project.id} class='proj2'> 
+        <div id=${project.id} class='proj2' style=" background: url(${project.img}); background-repeat: no-repeat;  background-size: cover; "> 
           <h3>${project.title}</h3>
           <p>${project.description}</p>
           <ul class="tools2">
@@ -122,14 +130,13 @@ for (let i = 1; i < myProjects.length; i += 1) {
 const openPop = document.querySelectorAll('.open-button')
 const popUp = document.querySelector('.pop-container')
 
-
-openPop.forEach((element) => {
-    element.addEventListener('click', () => {
-        const id = Number(element.id)
-        for (let i = 0; i < myProjects.length; i += 1) {
-          const project = myProjects[i]
-            if (id === project.id) {
-            popUp.innerHTML = `
+openPop.forEach(element => {
+  element.addEventListener('click', () => {
+    const id = Number(element.id)
+    for (let i = 0; i < myProjects.length; i += 1) {
+      const project = myProjects[i]
+      if (id === project.id) {
+        popUp.innerHTML = `
           
         <div class="pop-container;">
           <div class="title">
@@ -152,17 +159,15 @@ openPop.forEach((element) => {
             </div>
           </div>
         </div>
-      `;
-            }
-        }
- 
+      `
+      }
+    }
 
-        popUp.classList.add('show');
+    popUp.classList.add('show')
 
-        const closePop = document.querySelector('.title-x');
-      closePop.addEventListener('click', () => {
-  popUp.classList.remove('show');
-});
-       
-    });
-});
+    const closePop = document.querySelector('.title-x')
+    closePop.addEventListener('click', () => {
+      popUp.classList.remove('show')
+    })
+  })
+})

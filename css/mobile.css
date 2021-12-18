@@ -284,7 +284,7 @@ p {
 .proj2 {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.4) 61.94%), url(../img/holder-2.png);
+  /* background: url(/img/holder-2.png); */
   background-size: cover;
   margin-top:24px;
   height: auto;
@@ -381,8 +381,8 @@ p {
   font-size: 40px;
   width: 10px;
   height: 10px;
-  color: red;
   cursor: pointer;
+  color: #67798e;
 }
 
 .title h3 {
