@@ -141,6 +141,11 @@ a {
   justify-content: center;
 }
 
+.firstproject {
+  display: flex;
+  justify-content: center;
+}
+
 .dsktp-works-top {
   display: flex;
   flex-direction: row;
