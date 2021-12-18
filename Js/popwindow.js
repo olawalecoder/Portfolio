@@ -169,8 +169,8 @@ openPop.forEach((element) => {
     });
   });
 });
-
-function toggle(blur) {
+// eslint-disable-next-line no-unused-vars
+function toggle() {
   const blur = document.getElementById('blur');
   blur.classList.toggle('active');
 };
