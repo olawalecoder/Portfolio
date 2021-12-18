@@ -8,7 +8,7 @@ const myProjects = [
     img: 'img/Placeholder.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: '#',
-    source: '#'
+    source: '#',
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const myProjects = [
     img: 'img/holder-1.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     live: '#',
-    source: '#'
+    source: '#',
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const myProjects = [
     img: 'img/holder-2.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     live: '#',
-    source: '#'
+    source: '#',
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const myProjects = [
     img: './img/holder-3.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     live: '#',
-    source: '#'
+    source: '#',
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const myProjects = [
     img: './img/holder-4.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     live: '#',
-    source: '#'
+    source: '#',
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ const myProjects = [
     img: './img/holder-2.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     live: '#',
-    source: '#'
+    source: '#',
   },
   {
     id: 7,
@@ -74,12 +74,12 @@ const myProjects = [
     img: './img/holder-3.png',
     technologies: ['html', 'bootstrap', 'ruby'],
     live: '#',
-    source: '#'
+    source: '#',
   }
-]
+];
 
-const projectSection = document.querySelector('.works')
-const firstProject = document.querySelector('.firstproject')
+const projectSection = document.querySelector('.works');
+const firstProject = document.querySelector('.firstproject');
 
 firstProject.innerHTML = `<div class="dsktp-works-top">
  <h2>My Recent Works</h2>
@@ -103,10 +103,10 @@ firstProject.innerHTML = `<div class="dsktp-works-top">
    </ul>
    <button id='${myProjects[0].id}' class="Proj-button open-button">See Project</button>
  </div>
- </div>`
+ </div>`;
 
 for (let i = 1; i < myProjects.length; i += 1) {
-  const project = myProjects[i]
+  const project = myProjects[i];
   projectSection.innerHTML += `
       
 
@@ -127,14 +127,14 @@ for (let i = 1; i < myProjects.length; i += 1) {
       `
 }
 
-const openPop = document.querySelectorAll('.open-button')
-const popUp = document.querySelector('.pop-container')
+const openPop = document.querySelectorAll('.open-button');
+const popUp = document.querySelector('.pop-container');
 
-openPop.forEach(element => {
+openPop.forEach((element) => {
   element.addEventListener('click', () => {
-    const id = Number(element.id)
+    const id = Number(element.id);
     for (let i = 0; i < myProjects.length; i += 1) {
-      const project = myProjects[i]
+      const project = myProjects[i];
       if (id === project.id) {
         popUp.innerHTML = `
           
@@ -159,15 +159,15 @@ openPop.forEach(element => {
             </div>
           </div>
         </div>
-      `
+      `;
       }
     }
 
-    popUp.classList.add('show')
+    popUp.classList.add('show');
 
-    const closePop = document.querySelector('.title-x')
+    const closePop = document.querySelector('.title-x');
     closePop.addEventListener('click', () => {
-      popUp.classList.remove('show')
-    })
-  })
-})
+      popUp.classList.remove('show');
+    });
+  });
+});
