@@ -75,7 +75,7 @@ const myProjects = [
     technologies: ['html', 'bootstrap', 'ruby'],
     live: '#',
     source: '#',
-  }
+  },
 ];
 
 const projectSection = document.querySelector('.works');
@@ -124,7 +124,7 @@ for (let i = 1; i < myProjects.length; i += 1) {
       </div>
     
       
-      `
+      `;
 }
 
 const openPop = document.querySelectorAll('.open-button');

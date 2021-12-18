@@ -148,17 +148,17 @@ a {
 
 .dsktp-works-top {
   padding: 114px 142px 16px 141px;
-  font-family: Crete Round;
+  font-family: 'Crete Round', sans-serif;
   font-size: 40px;
   line-height: 52px;
   align-items: center;
-  color: #091E42;
+  color: #091e42;
 }
 
 .works h2 {
   width: 327px;
   height: 52px;
-  font-family: Crete Round, sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -166,16 +166,15 @@ a {
   text-align: left;
 }
 
- .hline {
+.hline {
   width: 794px;
   height: 1px;
   background: #212121;
-} 
+}
 
 .proj1 {
   display: grid;
   grid-template-columns: 60% 40%;
- 
   margin: 0;
   padding: 114px 142px 16px 141px;
   gap: 24px;
@@ -251,7 +250,7 @@ a {
 .proj2 {
   display: flex;
   flex-direction: column;
-  width: 100%;;
+  width: 100%;
   height: auto;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.4) 61.94%), url(../img/holder-2.png);
   background-size: cover;
@@ -322,7 +321,7 @@ a {
   width: 90%;
   height: auto;
   position: fixed;
-  background: #fff; 
+  background: #fff;
   z-index: 1000;
   top: 0;
   right: 100px;
