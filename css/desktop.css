@@ -15,8 +15,12 @@ body {
   height: 100%;
 }
 
-.wrapperpage {
-  height: auto;
+.wrapperpage { height: auto; }
+
+.blurwholepage#blur.active {
+  filter: blur(10px);
+  pointer-events: none;
+  user-select: none;
 }
 
 header {
@@ -318,6 +322,9 @@ a {
 }
 
 .pop-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   width: 90%;
   height: auto;
   position: fixed;
@@ -326,7 +333,8 @@ a {
   top: 0;
   right: 100px;
   margin: 112px 0 0 142px;
-  padding: 0 24px 24px 24px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.30);
   visibility: hidden;
 }
 

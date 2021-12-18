@@ -14,6 +14,12 @@ body {
   height: 6968px;
 }
 
+.blurwholepage#blur.active {
+  filter: blur(50px);
+  pointer-events: none;
+  user-select: none;
+}
+
 #slidebar {
   display: flex;
   justify-content: space-between;
@@ -262,7 +268,6 @@ p {
   background: #ff6b00;
   border: 0;
   color: #fff;
-  width: 124px;
   height: 48px;
   padding: 12px 12px;
   font-family: Inter, sans-serif;
@@ -349,13 +354,17 @@ p {
 }
 
 .pop-container {
-  width: auto;
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  height: 100%;
   position: fixed;
   background: #fff;
   z-index: 1000;
   top: 0;
   padding: 16px 16px 100px 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.30);
   visibility: hidden;
 }
 
@@ -395,10 +404,6 @@ p {
 }
 
 .pop-button > .Proj-button { width: 40%; }
-
-.pop-img {
-  width: 100%;
-}
 
 .about {
   background: #1c1a19;

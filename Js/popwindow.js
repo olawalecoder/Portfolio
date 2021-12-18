@@ -101,7 +101,7 @@ firstProject.innerHTML = `<div class="dsktp-works-top">
      <li>bootstrap</li>
      <li>Ruby</li>
    </ul>
-   <button id='${myProjects[0].id}' class="Proj-button open-button">See Project</button>
+   <button id='${myProjects[0].id}' onclick="toggle()" class="Proj-button open-button">See Project</button>
  </div>
  </div>`;
 
@@ -119,7 +119,7 @@ for (let i = 1; i < myProjects.length; i += 1) {
             <li>${project.technologies[1]}</li>
             <li>${project.technologies[2]}</li>
           </ul>
-          <button id='${project.id}' class="Proj-button2 open-button">See Project</button>
+          <button id='${project.id}' onclick="toggle()" class="Proj-button2 open-button">See Project</button>
         </div>
       </div>
     
@@ -138,10 +138,9 @@ openPop.forEach((element) => {
       if (id === project.id) {
         popUp.innerHTML = `
           
-        <div class="pop-container;">
           <div class="title">
             <h3 class="title-short">${project.title}</h3>
-            <span class="title-x">&times;</span>
+            <span class="title-x" onclick="toggle()">&times;</span>
           </div>
           <ul class="tools">
           <li>${project.technologies[0]}</li>
@@ -158,7 +157,6 @@ openPop.forEach((element) => {
               </div>
             </div>
           </div>
-        </div>
       `;
       }
     }
@@ -171,3 +169,10 @@ openPop.forEach((element) => {
     });
   });
 });
+
+function toggle() {
+  let blur = document.getElementById('blur');
+  blur.classList.toggle('active');
+  let noBlur = document.getElementsByClassName('.pop-container');
+  noBlur.classList.toggle('active');
+}
