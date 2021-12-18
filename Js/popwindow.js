@@ -170,7 +170,7 @@ openPop.forEach((element) => {
   });
 });
 
-function toggle() {
+function toggle(blur) {
   const blur = document.getElementById('blur');
   blur.classList.toggle('active');
-}
+};
