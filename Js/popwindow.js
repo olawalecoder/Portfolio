@@ -171,6 +171,6 @@ openPop.forEach((element) => {
 });
 
 function toggle() {
-  let blur = document.getElementById('blur');
+  var blur = document.getElementById('blur');
   blur.classList.toggle('active');
 }
