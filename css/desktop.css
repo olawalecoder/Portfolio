@@ -16,7 +16,7 @@ body {
 }
 
 .home-page {
-  height: 100vh;
+  height: auto;
 }
 
 header {
@@ -323,7 +323,7 @@ a {
   height: auto;
   position: fixed;
   background: #fff; 
-  z-index: 1700;
+  z-index: 1000;
   top: 0;
   right: 100px;
   margin: 112px 0 0 142px;

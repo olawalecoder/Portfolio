@@ -358,7 +358,7 @@ p {
   background: #fff; 
   z-index: 1000;
   top: 0;
-  padding: 16px 68px 100px 16px;
+  padding: 16px 16px 100px 16px;
   visibility: hidden;
 }
 
@@ -403,7 +403,7 @@ p {
 .pop-button > .Proj-button { width: 40%; }
 
 .pop-img {
-  height: 220px;
+  width: 100%;
 }
 
 .about {
