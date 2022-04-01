@@ -1,14 +1,14 @@
 const myProjects = [
   {
     id: 1,
-    title: 'Multi Post Stories',
+    title: 'Afri Music Festival',
 
     description:
-      "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard.",
+      "This website was developed for 5-days music festival. Interested participants can have an overview of what the music fest will be like and see a list of performing acts and artists.",
     img: 'img/Placeholder.png',
-    technologies: ['css', 'html', 'bootstrap', 'ruby'],
-    live: '#',
-    source: '#',
+    technologies: ['css', 'html', 'javacript'],
+    live: 'https://olawalecoder.github.io/Conference-Page/',
+    source: 'https://github.com/olawalecoder/Conference-Page',
   },
   {
     id: 2,
