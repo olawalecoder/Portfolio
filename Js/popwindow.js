@@ -5,7 +5,7 @@ const myProjects = [
 
     description:
       "This website was developed for 5-days music festival. Interested participants can have an overview of what the music fest will be like and see a list of performing acts and artists.",
-    img: 'img/Placeholder.png',
+    img: 'img/afrimusicscreen.png',
     technologies: ['css', 'html', 'javacript'],
     live: 'https://olawalecoder.github.io/Conference-Page/',
     source: 'https://github.com/olawalecoder/Conference-Page',
